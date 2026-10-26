@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Hệ thống Quản lý Thư viện – tra cứu, mượn trả, đặt trước, phí phạt và thống kê" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Quản lý Thư viện</title>
+    <script>
+      try {
+        var saved = localStorage.getItem('qltv.theme');
+        if (saved === 'dark' || saved === 'light') document.documentElement.setAttribute('data-theme', saved);
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

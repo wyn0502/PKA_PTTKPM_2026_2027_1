@@ -1,0 +1,75 @@
+/* Dung Pham Anh: Token màu, font, khoảng cách: bảng màu VS Code Light+/Dark+ và dải 9 màu; sáng là mặc định */
+:root {
+  --canvas: 255 255 255;
+  --elevated: 243 243 243;
+  --ink: 26 26 26;
+  --muted: 110 110 110;
+  --line: 229 229 229;
+  --accent: 4 81 165;
+
+  --syn-type: 38 127 153;
+  --syn-number: 9 134 88;
+  --syn-string: 163 21 21;
+
+  --ramp-0: #f1e682;
+  --ramp-1: #fbc175;
+  --ramp-2: #fc9a75;
+  --ramp-3: #fb7c78;
+  --ramp-4: #e6939d;
+  --ramp-5: #8766a4;
+  --ramp-6: #4c8999;
+  --ramp-7: #35959b;
+  --ramp-8: #6ab498;
+
+  --ramp-text-0: #7d7844;
+  --ramp-text-1: #927044;
+  --ramp-text-2: #a6664d;
+  --ramp-text-3: #b75b58;
+  --ramp-text-4: #9f656c;
+  --ramp-text-5: #8766a4;
+  --ramp-text-6: #467e8d;
+  --ramp-text-7: #2e8287;
+  --ramp-text-8: #4b806c;
+
+  --chart-1: #5e74c4;
+  --chart-2: #c0624f;
+  --chart-grid: rgb(var(--line));
+
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --radius: 6px;
+  --gutter: clamp(16px, 3vw, 40px);
+  --sidebar-width: 244px;
+  --rail-width: 68px;
+  --header-height: 56px;
+  --tabbar-height: 62px;
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  --canvas: 30 30 30;
+  --elevated: 37 37 38;
+  --ink: 212 212 212;
+  --muted: 154 154 154;
+  --line: 62 62 66;
+  --accent: 86 156 214;
+
+  --syn-type: 78 201 176;
+  --syn-number: 181 206 168;
+  --syn-string: 206 145 120;
+
+  --ramp-text-0: #f1e682;
+  --ramp-text-1: #fbc175;
+  --ramp-text-2: #fc9a75;
+  --ramp-text-3: #fb7c78;
+  --ramp-text-4: #e6939d;
+  --ramp-text-5: #a98bc6;
+  --ramp-text-6: #6aaabb;
+  --ramp-text-7: #35959b;
+  --ramp-text-8: #6ab498;
+
+  --chart-1: #6f86d6;
+  --chart-2: #d9654f;
+  color-scheme: dark;
+}
